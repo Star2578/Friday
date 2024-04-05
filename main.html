@@ -14,26 +14,32 @@
 </head>
 <body class="font-[kanit]">
 
-    <nav class="w-full flex justify-center text-green-600 px-4 pt-5">
-        <a class="mr-auto px-3" href="https://www.youtube.com/watch?v=_fvNuap9l-Y" target="_blank">
-            <button class=" rounded-full hover:bg-gray-200 transition-colors">สันจร</button>
+    <nav class="w-full flex justify-between text-green-600 px-4 pt-5">
+        <a class=" px-3" href="https://www.youtube.com/watch?v=_fvNuap9l-Y" target="_blank">
+            <button class="rounded-full p-2 px-3 hover:bg-gray-200 transition-colors">สันจร</button>
         </a>
         <div class=" text-black text-3xl font-bold">Main</div>
-        <a class="ml-auto px-3" href="/login.html">
-            <button class="rounded-full hover:bg-gray-200 transition-colors">ออกจากระบบ</button>
+        <a class=" px-3" href="/login.html">
+            <button class="rounded-full p-2 px-3 hover:bg-gray-200 transition-colors">ออกจากระบบ</button>
         </a>
     </nav>
 
     <main class="mt-10 w-full h-full">
 
-        <div class="w-full">
-            <div class="relative sm:ml-10 mx-4 sm:mx-auto sm:w-8/12 md:w-6/12 lg:w-5/12">
+        <div class="w-full flex flex-row flex-nowrap">
+            <div class="relative sm:ml-10 mx-4 w-full sm:w-1/2 lg:w-5/12">
                 <input type="text" id="search-bar" class="w-full pl-5 p-3 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors" placeholder="กรุณาเลือกวันที่จอง">
                 <i class="fa-solid fa-calendar-days absolute right-6 top-3 size-5"></i>
             </div>
+            <div id="tab" class="hidden space-x-2 mt-1 md:space-x-4 ml-auto md:mr-6">
+                <button class="rounded-full bg-gray-200 size-10 hover:bg-green-500 transition-colors"></button>
+                <button class="rounded-full bg-gray-200 size-10 hover:bg-green-500 transition-colors"></button>
+                <button class="rounded-full bg-gray-200 size-10 hover:bg-green-500 transition-colors"></button>
+                <button class="rounded-full bg-gray-200 size-10 hover:bg-green-500 transition-colors"></button>
+                <button class="rounded-full bg-gray-200 size-10 hover:bg-green-500 transition-colors"></button>
+            </div>
         </div>
-            
-        </div>
+
 
         <div id="container" class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 justify-around w-full h-full min-h-[600px] px-5 mt-5 p-2">
 
@@ -52,12 +58,87 @@
                 </div>
             </div>
 
-            
+            <div class="aspect-h-1 aspect-w-1 flex flex-col w-full h-fit p-1 bg-gray-50">
+                <img src="https://picsum.photos/420/300" alt="" class="w-[95%] h-auto self-center rounded-2xl my-3">
+                <div class="grid grid-cols-2 grid-flow-col px-4 w-full grid-rows-3">
+
+                    <h2 class="text-3xl font-semibold">A19</h2>
+                    <div class="text-lg">.........</div>
+                    <div class="text-lg">xx/xx/xxxx</div>
+
+                    <div class="grid grid-rows-subgrid row-span-3">
+                        <button class="bg-green-600 py-1 px-5 ml-auto w-fit text-slate-50 text-lg rounded-full row-start-2 hover:bg-green-700">จอง</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="aspect-h-1 aspect-w-1 flex flex-col w-full h-fit p-1 bg-gray-50">
+                <img src="https://picsum.photos/420/300" alt="" class="w-[95%] h-auto self-center rounded-2xl my-3">
+                <div class="grid grid-cols-2 grid-flow-col px-4 w-full grid-rows-3">
+
+                    <h2 class="text-3xl font-semibold">A19</h2>
+                    <div class="text-lg">.........</div>
+                    <div class="text-lg">xx/xx/xxxx</div>
+
+                    <div class="grid grid-rows-subgrid row-span-3">
+                        <button class="bg-green-600 py-1 px-5 ml-auto w-fit text-slate-50 text-lg rounded-full row-start-2 hover:bg-green-700">จอง</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="aspect-h-1 aspect-w-1 flex flex-col w-full h-fit p-1 bg-gray-50">
+                <img src="https://picsum.photos/420/300" alt="" class="w-[95%] h-auto self-center rounded-2xl my-3">
+                <div class="grid grid-cols-2 grid-flow-col px-4 w-full grid-rows-3">
+
+                    <h2 class="text-3xl font-semibold">A19</h2>
+                    <div class="text-lg">.........</div>
+                    <div class="text-lg">xx/xx/xxxx</div>
+
+                    <div class="grid grid-rows-subgrid row-span-3">
+                        <button class="bg-green-600 py-1 px-5 ml-auto w-fit text-slate-50 text-lg rounded-full row-start-2 hover:bg-green-700">จอง</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="aspect-h-1 aspect-w-1 flex flex-col w-full h-fit p-1 bg-gray-50">
+                <img src="https://picsum.photos/420/300" alt="" class="w-[95%] h-auto self-center rounded-2xl my-3">
+                <div class="grid grid-cols-2 grid-flow-col px-4 w-full grid-rows-3">
+
+                    <h2 class="text-3xl font-semibold">A19</h2>
+                    <div class="text-lg">.........</div>
+                    <div class="text-lg">xx/xx/xxxx</div>
+
+                    <div class="grid grid-rows-subgrid row-span-3">
+                        <button class="bg-green-600 py-1 px-5 ml-auto w-fit text-slate-50 text-lg rounded-full row-start-2 hover:bg-green-700">จอง</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="aspect-h-1 aspect-w-1 flex flex-col w-full h-fit p-1 bg-gray-50">
+                <img src="https://picsum.photos/420/300" alt="" class="w-[95%] h-auto self-center rounded-2xl my-3">
+                <div class="grid grid-cols-2 grid-flow-col px-4 w-full grid-rows-3">
+
+                    <h2 class="text-3xl font-semibold">A19</h2>
+                    <div class="text-lg">.........</div>
+                    <div class="text-lg">xx/xx/xxxx</div>
+
+                    <div class="grid grid-rows-subgrid row-span-3">
+                        <button class="bg-green-600 py-1 px-5 ml-auto w-fit text-slate-50 text-lg rounded-full row-start-2 hover:bg-green-700">จอง</button>
+                    </div>
+
+                </div>
+            </div>
+
 
         </div>
+
     </main>
 
-    <footer class="fixed bottom-0 left-0pt-1 px-2 w-full h-20 pt-2 border-t-2 border-gray-200 bg-slate-50">
+    <footer class="fixed bottom-0 hidden left-0pt-1 px-2 w-full h-20 pt-2 border-t-2 border-gray-200 bg-slate-50">
         <div class="flex flex-row space-x-8 justify-center">
             <button class="rounded-full bg-gray-200 size-11 hover:bg-green-500 transition-colors"></button>
             <button class="rounded-full bg-gray-200 size-11 hover:bg-green-500 transition-colors"></button>
