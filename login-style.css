@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #5DB075;
+    --text-color: #BDBDBD;
+}
+
+h1 {
+    text-align: center;
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#bot-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    background-color: #F6F6F6;
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    color: white;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#bot-text {
+    color: var(--primary-color);
+}

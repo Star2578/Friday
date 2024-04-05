@@ -9,12 +9,21 @@
 <body>
     <h1>Log In</h1>
     <div id="login-container">
-        <Input placeholder="โทรศัพท์"></Input>
-        <Input placeholder="รหัสผ่าน"></Input>
+        <Input placeholder="โทรศัพท์" />
+        <span style="
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;">
+            <span>
+                <Input placeholder="รหัสผ่าน" type="password" /> 
+                <button style="color: #5DB075">Show</button>
+            </span>
+            <a href="">ลืมรหัสผ่าน</a>
+        </span>
     </div>
     <div id="bot-container">
-        <button>เข้าสู่ระบบ</button>
-        <a href="">No account? <b>Sign up</b></a>
+        <button class="button-primary">เข้าสู่ระบบ</button>
+        <a href="" id="bot-text">No account? <b>Sign up</b></a>
     </div>
 
 </body>
