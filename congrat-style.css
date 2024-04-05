@@ -1,0 +1,82 @@
+/* CSS for the green background */
+:root {
+    --primary-color: #5DB075;
+    --text-color: #BDBDBD;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5DB075; /* Green background color */
+    height: 100vh; /* Set full height of viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  /* CSS for the white box */
+  .white-box {
+    width: 1000px;
+    height: 700px;
+    background-color: #FFFFFF; /* White box color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Center horizontally */
+     /* Center vertically */
+  }
+
+  .pay {
+    color: red;
+  }
+
+  .pay2 {
+    color: var(--text-color);
+  }
+
+  /* CSS for the select menu */
+  .select-box {
+    width: 200px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the select box */
+  }
+
+  /* Style for the select element */
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    appearance: none; /* Remove default arrow icon */
+    color: #BDBDBD;
+  }
+
+  /* Style for the options */
+  option {
+    padding: 10px;
+    font-size: 16px;
+    color: var(--text-color)
+  }
+
+  .button-primary {
+    background-color: #5DB075;
+    border: none;
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    color: white;
+    width: 300px;
+}
+
+#bot-container {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slip {
+    color: var(--text-color);
+}
