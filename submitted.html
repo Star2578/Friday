@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="submitted-style.css">
+  <title>Green Background with White Box</title>
+</head>
+<body>
+  <div class="white-box">
+    <h1 class="pay">จองสำเร็จแล้ว!</h1>
+    <h3 class="pay2">กรุณาเลือกวิธีชำระเงิน</h2>
+        <div class="select-box">
+            <select>
+              <option value="option1">QR-CODE</option>
+              <option value="option2">เงินสด</option>
+            </select>
+          </div>
+          <img class="image" src="qrcode.png">
+          <span style="position: relative;">
+            <Input id="slip" placeholder="กรุณาแนบสลิป" type="slip" /> 
+            <button id="show-button" style="
+            position: absolute; right: 5px; top: 50%; transform: translateY(-50%);
+            color: #5DB075; border: none; background: transparent; cursor: pointer; outline: none;
+            "><img src=""><i class="fa-regular fa-image"></i></button>
+        </span>
+          <div id="bot-container">
+            <button class="button-primary">Submit</button>
+        </div>
+  </div>
+  <script src="https://kit.fontawesome.com/14d08d26ac.js" crossorigin="anonymous"></script>
+</body>
+</html>
