@@ -70,7 +70,7 @@ body {
 }
 
 #bot-container {
-    margin-top: 130px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,4 +79,11 @@ body {
 
 #slip {
     color: var(--text-color);
+    padding-top: 10px;
+}
+
+.image {
+  height: 300px;
+  width: auto;
+  padding-bottom: 10px;
 }
