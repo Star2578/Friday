@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+#regis{
+    background-color: #5DB075;
+    border: none;
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    color: white;
+    width: 300px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+input,select{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    background-color: #F6F6F6;
+    color: #BDBDBD;
+    border-color: #BDBDBD;
+    z-index: 0;
+}
+
+#buttoncontainer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #5DB075;
+    min-width: 200px;
+    text-align: center;
+}
