@@ -18,6 +18,8 @@ h1 {
 #bot-container {
     position: absolute;
     bottom: 0;
+    left: 50%;
+    right: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,6 +34,7 @@ input {
     background-color: #F6F6F6;
     color: var(--text-color);
     border-color: var(--text-color);
+    z-index: 0;
 }
 
 .button-primary {
@@ -50,4 +53,6 @@ a {
 
 #bot-text {
     color: var(--primary-color);
+    min-width: 200px;
+    text-align: center;
 }
