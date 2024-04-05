@@ -3,6 +3,15 @@
     --text-color: #BDBDBD;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     text-align: center;
 }
@@ -17,13 +26,14 @@ h1 {
 
 #bot-container {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 50%;
     right: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 input {
